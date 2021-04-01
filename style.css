@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to right bottom, #ea2c62,
+    background: linear-gradient(to right bottom, #ca1616,
     #120078);
     font-family: Arial,  sans-serif;
     width: 100%;
@@ -26,7 +26,7 @@ body {
     width: 100%;
     max-width: 320px;
     height: 80vh;
-    background: url(./weather.jpg) no-repeat center;
+    background: url(./weather1.jpg) no-repeat center;
     background-size: cover;
     border-radius: 10px;
     overflow: hidden;
@@ -104,7 +104,7 @@ main-container::before{
 .location .city{
     font-size: 20px;
     font-weight: bold;
-    color: rgb(223, 62, 196);
+    color: rgb(2, 2, 2);
 }
 .current{
     width: 100%;
@@ -123,5 +123,6 @@ main-container::before{
 }
 .current > *{
     padding-bottom: 10px;
-    
+    font-weight: bold;
+    color: rgb(2, 2, 2);
 }
